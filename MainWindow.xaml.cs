@@ -8,6 +8,7 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
+using static System.Net.Mime.MediaTypeNames;
 
 namespace MeineWPFApp;
 
@@ -16,8 +17,14 @@ namespace MeineWPFApp;
 /// </summary>
 public partial class MainWindow : Window
 {
+
     public MainWindow()
     {
         InitializeComponent();
+    }
+    private void Button_Click(object sender, RoutedEventArgs e)
+    {
+        string eingabe = txtVorname.Text;
+        MessageBox.Show($"Eingabe : {eingabe}");
     }
 }
