@@ -1,20 +1,20 @@
 ﻿MeineWPFApp
-
+1.0.0.0
 
 winexe
 C#
 .cs
-c:\Users\pasca\.vscode\privProjekte\MeineWPFApp\obj\Debug\net10.0-windows\
+C:\Users\pasca\.vscode\privProjekte\MeineWPFApp\obj\Debug\net10.0-windows\
 MeineWPFApp
 none
 false
 TRACE;DEBUG;NET;NET10_0;NETCOREAPP;WINDOWS;WINDOWS7_0;NET5_0_OR_GREATER;NET6_0_OR_GREATER;NET7_0_OR_GREATER;NET8_0_OR_GREATER;NET9_0_OR_GREATER;NET10_0_OR_GREATER;NETCOREAPP3_0_OR_GREATER;NETCOREAPP3_1_OR_GREATER;WINDOWS7_0_OR_GREATER
-c:\Users\pasca\.vscode\privProjekte\MeineWPFApp\App.xaml
+C:\Users\pasca\.vscode\privProjekte\MeineWPFApp\App.xaml
 2-737862842
 
-5-1591407647
+7-868451558
 206-81868862
 MainWindow.xaml;RemoveRowDialog.xaml;
 
-False
+True
 

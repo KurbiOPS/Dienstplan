@@ -76,7 +76,7 @@ namespace MeineWPFApp {
                 return;
             }
             _contentLoaded = true;
-            System.Uri resourceLocater = new System.Uri("/MeineWPFApp;component/removerowdialog.xaml", System.UriKind.Relative);
+            System.Uri resourceLocater = new System.Uri("/MeineWPFApp;V1.0.0.0;component/removerowdialog.xaml", System.UriKind.Relative);
             
             #line 1 "..\..\..\RemoveRowDialog.xaml"
             System.Windows.Application.LoadComponent(this, resourceLocater);
