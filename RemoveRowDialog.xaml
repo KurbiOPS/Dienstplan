@@ -1,0 +1,31 @@
+<Window x:Class="MeineWPFApp.RemoveRowDialog"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:MeineWPFApp"
+        mc:Ignorable="d"
+        Title="Zeile entfernen" Height="350" Width="450" WindowStartupLocation="CenterOwner">
+    <Grid Margin="25">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="Auto"/>
+        </Grid.RowDefinitions>
+
+        <TextBlock Grid.Row="0" Text="Wählen Sie die Person aus, die entfernt werden soll:" Margin="0,0,0,15" FontWeight="Bold" FontSize="16"/>
+
+        <ListBox x:Name="lstNames" Grid.Row="1" Margin="0,0,0,15" SelectionMode="Single" FontSize="14">
+            <ListBox.ItemTemplate>
+                <DataTemplate>
+                    <TextBlock Text="{Binding}" FontSize="14" Padding="8"/>
+                </DataTemplate>
+            </ListBox.ItemTemplate>
+        </ListBox>
+
+        <StackPanel Grid.Row="2" Orientation="Horizontal" HorizontalAlignment="Right">
+            <Button x:Name="btnRemove" Content="Entfernen" Width="100" Height="35" Margin="0,0,15,0" Click="btnRemove_Click" FontSize="14"/>
+            <Button x:Name="btnCancel" Content="Abbrechen" Width="100" Height="35" Click="btnCancel_Click" FontSize="14"/>
+        </StackPanel>
+    </Grid>
+</Window>
