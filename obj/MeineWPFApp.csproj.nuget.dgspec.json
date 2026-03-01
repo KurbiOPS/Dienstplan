@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\pasca\\.vscode\\privProjekte\\MeineWPFApp\\MeineWPFApp.csproj": {}
+    "c:\\Users\\pasca\\.vscode\\privProjekte\\MeineWPFApp\\MeineWPFApp.csproj": {}
   },
   "projects": {
-    "C:\\Users\\pasca\\.vscode\\privProjekte\\MeineWPFApp\\MeineWPFApp.csproj": {
+    "c:\\Users\\pasca\\.vscode\\privProjekte\\MeineWPFApp\\MeineWPFApp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\pasca\\.vscode\\privProjekte\\MeineWPFApp\\MeineWPFApp.csproj",
+        "projectUniqueName": "c:\\Users\\pasca\\.vscode\\privProjekte\\MeineWPFApp\\MeineWPFApp.csproj",
         "projectName": "MeineWPFApp",
-        "projectPath": "C:\\Users\\pasca\\.vscode\\privProjekte\\MeineWPFApp\\MeineWPFApp.csproj",
+        "projectPath": "c:\\Users\\pasca\\.vscode\\privProjekte\\MeineWPFApp\\MeineWPFApp.csproj",
         "packagesPath": "C:\\Users\\pasca\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\pasca\\.vscode\\privProjekte\\MeineWPFApp\\obj\\",
+        "outputPath": "c:\\Users\\pasca\\.vscode\\privProjekte\\MeineWPFApp\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\pasca\\AppData\\Roaming\\NuGet\\NuGet.Config"
